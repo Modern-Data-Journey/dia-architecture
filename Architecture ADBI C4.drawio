@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="2">
+<mxfile host="app.diagrams.net" pages="3">
   <diagram name="Vue contexte système : Profile Matcher" id="CaQ9kuyyMf8oFZSKTpkX">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rYFSYmXqkRsj5-JT_lfC" name="Vue d’ensemble des systèmes : ADBI">
-    <mxGraphModel dx="1178" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -206,6 +206,94 @@
         </mxCell>
         <mxCell id="Qm7bkEvks-gdGiB6EJ2h-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Système&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Type]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Déscription&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="220" x="304" y="920" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-tQoblLEmQAcfuDHymNb" name="Vue Diagramme de conteneurs (Profile Matcher) - ADBI">
+    <mxGraphModel dx="1704" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-7" edge="1" parent="1" source="0E32ASuYmKPpBNdMMmuG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="S2mPPAGXO0xYNbbxyGra-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-9" connectable="0" parent="S2mPPAGXO0xYNbbxyGra-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Gère les clients et les besoins" vertex="1">
+          <mxGeometry relative="1" x="-0.0748" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0E32ASuYmKPpBNdMMmuG-1" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;labelPerimeter=1;" value="Commercial&lt;div&gt;[Personne]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="43" x="500" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-5" edge="1" parent="1" source="0E32ASuYmKPpBNdMMmuG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="S2mPPAGXO0xYNbbxyGra-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-8" connectable="0" parent="S2mPPAGXO0xYNbbxyGra-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Gère son profil et sa disponibilité" vertex="1">
+          <mxGeometry relative="1" x="-0.1164" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0E32ASuYmKPpBNdMMmuG-2" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;labelPerimeter=1;" value="Consultant&lt;div&gt;[Personne]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="43" x="220" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-11" edge="1" parent="1" source="S2mPPAGXO0xYNbbxyGra-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;dashed=1;" target="S2mPPAGXO0xYNbbxyGra-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-12" connectable="0" parent="S2mPPAGXO0xYNbbxyGra-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Appelle l’API&lt;div&gt;Protocole : Json / HTTPS&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1714" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Front End&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Conteneur - application web]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;Interface de gestion des profils, des besoins et des recommandations&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(React.js, Azure Static Web Apps)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="263" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-14" edge="1" parent="1" source="S2mPPAGXO0xYNbbxyGra-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="S2mPPAGXO0xYNbbxyGra-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-15" connectable="0" parent="S2mPPAGXO0xYNbbxyGra-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Lit et écrit les profils,&amp;nbsp;&lt;div&gt;besoins et clients&lt;/div&gt;&lt;div&gt;Protocole : jdbc / TLS&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.014" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-16" edge="1" parent="1" source="S2mPPAGXO0xYNbbxyGra-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="S2mPPAGXO0xYNbbxyGra-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-17" connectable="0" parent="S2mPPAGXO0xYNbbxyGra-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Indexe les profils et&amp;nbsp;&lt;div&gt;recherche les plus proches&lt;/div&gt;&lt;div&gt;Protocole : Rest / Https&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0047" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Back End&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 8px; color: light-dark(rgb(255, 255, 255), rgb(252, 255, 247));&quot;&gt;Conteneur (API)&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Expose l’API, applique les règles métier, orchestre les recommandations&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(Python, FastAPI, Azure Container Apps)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="263" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Base applicative&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 8px; color: light-dark(rgb(255, 255, 255), rgb(252, 255, 247));&quot;&gt;Conteneur (base de données)&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Stocke les profils consultants, les disponibilités, les clients et les besoins&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(PostgreSQL Azure)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="43" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Base de données vectorielle&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 8px; color: light-dark(rgb(255, 255, 255), rgb(252, 255, 247));&quot;&gt;Conteneur (base vectorielle)&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Stocke les embeddings et recherche les correspondances par similarité&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(Qdrant)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="483" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-18" edge="1" parent="1" source="S2mPPAGXO0xYNbbxyGra-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="S2mPPAGXO0xYNbbxyGra-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-19" connectable="0" parent="S2mPPAGXO0xYNbbxyGra-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Capture les changements de données&lt;div&gt;Protocole : CDC&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0516" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-20" edge="1" parent="1" source="S2mPPAGXO0xYNbbxyGra-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="S2mPPAGXO0xYNbbxyGra-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-21" connectable="0" parent="S2mPPAGXO0xYNbbxyGra-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Créer les embeddings et les points&lt;div&gt;protocole : Rest / Https&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1232" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Data Platform&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 8px; color: light-dark(rgb(255, 255, 255), rgb(252, 255, 247));&quot;&gt;Système externe&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Consomme les données de Profile Matcher&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="270" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="w85dYbd66Dyko8OeCS17-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Vue d’ensemble des conteneurs : Profile Matcher -&amp;nbsp; ADBI&lt;/h1&gt;&lt;p&gt;Vue d’ensemble des systèmes de l’architecture data d’ADBI et de leurs échanges&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="450" x="16.5" y="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
