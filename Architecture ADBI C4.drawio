@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="app.diagrams.net" pages="2">
   <diagram name="Vue contexte système : Profile Matcher" id="CaQ9kuyyMf8oFZSKTpkX">
-    <mxGraphModel dx="2241" dy="2001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,6 +68,144 @@
         </mxCell>
         <mxCell id="__15xe5LSToYg4gXblCd-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ADBI [Entreprise]" vertex="1">
           <mxGeometry height="30" width="70" y="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rYFSYmXqkRsj5-JT_lfC" name="Vue d’ensemble des systèmes : ADBI">
+    <mxGraphModel dx="1178" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="640" width="820" x="50" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_of65n4w6h-5l_X-Om3A-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Vue d’ensemble des systèmes : ADBI&lt;/h1&gt;&lt;p&gt;Vue d’ensemble des systèmes de l’architecture data d’ADBI et de leurs échanges&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="450" x="50" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-12" edge="1" parent="1" source="_of65n4w6h-5l_X-Om3A-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="hDU27Q2Ix_tBLtVTGnFE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-16" connectable="0" parent="6IZqdd9Gk82LiSVgrbmt-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Fournit ses données&amp;nbsp;&lt;div&gt;(capture des changements)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1902" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-24" edge="1" parent="1" source="_of65n4w6h-5l_X-Om3A-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="hDU27Q2Ix_tBLtVTGnFE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-25" connectable="0" parent="6IZqdd9Gk82LiSVgrbmt-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="authentification" vertex="1">
+          <mxGeometry relative="1" x="0.0341" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_of65n4w6h-5l_X-Om3A-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Profile Matcher&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Système logiciel]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Permet la gestion de profiles clients et consultants, ainsi que la recommandation de profiles pour une mission&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="150" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-17" edge="1" parent="1" source="hDU27Q2Ix_tBLtVTGnFE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="_of65n4w6h-5l_X-Om3A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-20" connectable="0" parent="6IZqdd9Gk82LiSVgrbmt-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Restitue des données&lt;div&gt;validées et transformées&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1317" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-22" edge="1" parent="1" source="hDU27Q2Ix_tBLtVTGnFE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;dashed=1;" target="hDU27Q2Ix_tBLtVTGnFE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-26" connectable="0" parent="6IZqdd9Gk82LiSVgrbmt-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="authentification" vertex="1">
+          <mxGeometry relative="1" x="-0.1976" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDU27Q2Ix_tBLtVTGnFE-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Data Platform&lt;div&gt;&lt;span style=&quot;font-size: 8px; white-space: nowrap; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;[Système logiciel]&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Plateforme d’ingestion, de transformation, de gouvernance et d’exposition des données&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="370" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-18" edge="1" parent="1" source="hDU27Q2Ix_tBLtVTGnFE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="hDU27Q2Ix_tBLtVTGnFE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-19" connectable="0" parent="6IZqdd9Gk82LiSVgrbmt-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Interroge les données" vertex="1">
+          <mxGeometry relative="1" x="-0.2488" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-23" edge="1" parent="1" source="hDU27Q2Ix_tBLtVTGnFE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="hDU27Q2Ix_tBLtVTGnFE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-27" connectable="0" parent="6IZqdd9Gk82LiSVgrbmt-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="authentification" vertex="1">
+          <mxGeometry relative="1" x="0.0788" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDU27Q2Ix_tBLtVTGnFE-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Reporting&lt;div&gt;&lt;span style=&quot;font-size: 8px; white-space: nowrap; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;[Système logiciel]&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Tableaux de bord et rapports (PowerBI / Tableau)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="590" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="hDU27Q2Ix_tBLtVTGnFE-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Microsoft Entra Domain Services&lt;div&gt;&lt;span style=&quot;font-size: 8px; white-space: nowrap; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;[Système logiciel]&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Annuaire et authentification des utilisateurs&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="370" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-5" edge="1" parent="1" source="6IZqdd9Gk82LiSVgrbmt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;dashed=1;" target="_of65n4w6h-5l_X-Om3A-2">
+          <mxGeometry relative="1" x="-0.3252" as="geometry">
+            <mxPoint x="260" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-6" connectable="0" parent="6IZqdd9Gk82LiSVgrbmt-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Gère les clients et les besoins,&amp;nbsp;&lt;div&gt;valide les associations de profils&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2871" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-9" edge="1" parent="1" source="6IZqdd9Gk82LiSVgrbmt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="hDU27Q2Ix_tBLtVTGnFE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-28" connectable="0" parent="6IZqdd9Gk82LiSVgrbmt-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Consulte les rapports" vertex="1">
+          <mxGeometry relative="1" x="-0.0624" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-1" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;labelPerimeter=1;" value="Commercial&lt;div&gt;[Personne]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="43" x="440" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-7" edge="1" parent="1" source="6IZqdd9Gk82LiSVgrbmt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="_of65n4w6h-5l_X-Om3A-2">
+          <mxGeometry relative="1" x="-0.1201" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-8" connectable="0" parent="6IZqdd9Gk82LiSVgrbmt-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Gère son profil et&amp;nbsp;&lt;div&gt;sa disponibilité,&amp;nbsp;&lt;/div&gt;&lt;div&gt;recherche des missions&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3789" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-2" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;labelPerimeter=1;" value="Consultant&lt;div&gt;[Personne]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="43" x="107" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-10" edge="1" parent="1" source="6IZqdd9Gk82LiSVgrbmt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="hDU27Q2Ix_tBLtVTGnFE-2">
+          <mxGeometry relative="1" x="-0.0059" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-11" connectable="0" parent="6IZqdd9Gk82LiSVgrbmt-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Consulte les rapports" vertex="1">
+          <mxGeometry relative="1" x="-0.1479" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-3" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;labelPerimeter=1;" value="Direction&lt;div&gt;[Personne]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="43" x="730" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6IZqdd9Gk82LiSVgrbmt-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ADBI [Entreprise]" vertex="1">
+          <mxGeometry height="30" width="140" x="50" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Qm7bkEvks-gdGiB6EJ2h-1" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;labelPerimeter=1;" value="Personne, Commercial" vertex="1">
+          <mxGeometry height="43" width="43" x="60" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Qm7bkEvks-gdGiB6EJ2h-2" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="39" width="110" x="160" y="951" as="geometry" />
+        </mxCell>
+        <mxCell id="Qm7bkEvks-gdGiB6EJ2h-3" edge="1" parent="Qm7bkEvks-gdGiB6EJ2h-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qm7bkEvks-gdGiB6EJ2h-4" parent="Qm7bkEvks-gdGiB6EJ2h-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Relation" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="9" as="geometry" />
+        </mxCell>
+        <mxCell id="Qm7bkEvks-gdGiB6EJ2h-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Système&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Type]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Déscription&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="304" y="920" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
