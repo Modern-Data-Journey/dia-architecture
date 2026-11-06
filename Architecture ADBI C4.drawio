@@ -10,7 +10,7 @@
         <mxCell id="__15xe5LSToYg4gXblCd-4" edge="1" parent="1" source="__15xe5LSToYg4gXblCd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;dashed=1;startArrow=none;startFill=0;" target="__15xe5LSToYg4gXblCd-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="__15xe5LSToYg4gXblCd-6" connectable="0" parent="__15xe5LSToYg4gXblCd-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&amp;nbsp;Gère les clients et les missions,&amp;nbsp;&lt;div&gt;associe des profils&lt;/div&gt;" vertex="1">
+        <mxCell id="__15xe5LSToYg4gXblCd-6" connectable="0" parent="__15xe5LSToYg4gXblCd-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&amp;nbsp;Gère les clients et les missions" vertex="1">
           <mxGeometry relative="1" x="-0.0121" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
