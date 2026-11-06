@@ -66,8 +66,8 @@
         <mxCell id="__15xe5LSToYg4gXblCd-16" parent="__15xe5LSToYg4gXblCd-17" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Relation" vertex="1">
           <mxGeometry height="30" width="60" x="20" y="9" as="geometry" />
         </mxCell>
-        <mxCell id="__15xe5LSToYg4gXblCd-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ADBI" vertex="1">
-          <mxGeometry height="30" width="60" y="70" as="geometry" />
+        <mxCell id="__15xe5LSToYg4gXblCd-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ADBI [Entreprise]" vertex="1">
+          <mxGeometry height="30" width="70" y="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
