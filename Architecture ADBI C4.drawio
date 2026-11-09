@@ -211,7 +211,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-tQoblLEmQAcfuDHymNb" name="Vue Diagramme de conteneurs (Profile Matcher) - ADBI">
-    <mxGraphModel dx="2241" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1809" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -278,7 +278,7 @@
         <mxCell id="vLRMK3RqrneF0klX3ZPc-5" edge="1" parent="1" source="S2mPPAGXO0xYNbbxyGra-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="vLRMK3RqrneF0klX3ZPc-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLRMK3RqrneF0klX3ZPc-6" connectable="0" parent="vLRMK3RqrneF0klX3ZPc-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Validation des jetons&lt;div&gt;Protocole : HTTPS&lt;/div&gt;" vertex="1">
+        <mxCell id="vLRMK3RqrneF0klX3ZPc-6" connectable="0" parent="vLRMK3RqrneF0klX3ZPc-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Valide les jetons&lt;div&gt;Protocole : HTTPS&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0188" y="3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
