@@ -348,45 +348,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-y_6TJKhF4U-9KcMe2ZT" name="Vue Diagramme de Déploiement">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2876" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CKAboDhTFeI8NuHS_BNO-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;dashed=1;" value="" vertex="1">
-          <mxGeometry height="860" width="970" x="110" y="110" as="geometry" />
+        <mxCell id="8DsdirwrIOQHDzMfVq_l-1" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="700" width="1150" x="-150" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="CKAboDhTFeI8NuHS_BNO-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;strong&gt;Azure ADBI&lt;/strong&gt; &lt;code dir=&quot;ltr&quot;&gt;[Abonnement]&lt;/code&gt;" vertex="1">
-          <mxGeometry height="30" width="170" x="180" y="110" as="geometry" />
+        <mxCell id="CKAboDhTFeI8NuHS_BNO-5" parent="8DsdirwrIOQHDzMfVq_l-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;dashed=1;" value="" vertex="1">
+          <mxGeometry height="700" width="1150" as="geometry" />
         </mxCell>
-        <mxCell id="CKAboDhTFeI8NuHS_BNO-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Microsoft Entra ID&lt;div&gt;[Service Azure]&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="420" y="40" as="geometry" />
-        </mxCell>
-        <mxCell id="CKAboDhTFeI8NuHS_BNO-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;Front end (React.js)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Azure Static Web Apps [Service Azure]&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="230" x="210" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="CKAboDhTFeI8NuHS_BNO-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;dashed=1;" value="" vertex="1">
-          <mxGeometry height="660" width="830" x="170" y="280" as="geometry" />
-        </mxCell>
-        <mxCell id="CKAboDhTFeI8NuHS_BNO-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="PostgreSQL Azure&lt;div&gt;[Base de données]&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="490" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="CKAboDhTFeI8NuHS_BNO-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="ADLS Gen2&lt;div&gt;[Stockage]&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="640" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="CKAboDhTFeI8NuHS_BNO-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Key Vault&lt;div&gt;[Coffre de secrets]&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="780" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="CKAboDhTFeI8NuHS_BNO-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AVN [Réseau virtuel]" vertex="1">
-          <mxGeometry height="30" width="170" x="200" y="290" as="geometry" />
+        <mxCell id="CKAboDhTFeI8NuHS_BNO-9" parent="8DsdirwrIOQHDzMfVq_l-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AVN [Réseau virtuel]" vertex="1">
+          <mxGeometry height="30" width="170" x="80" as="geometry" />
         </mxCell>
         <mxCell id="CKAboDhTFeI8NuHS_BNO-12" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="210" width="320" x="200" y="330" as="geometry" />
-        </mxCell>
-        <mxCell id="CKAboDhTFeI8NuHS_BNO-10" parent="CKAboDhTFeI8NuHS_BNO-12" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;dashed=1;" value="" vertex="1">
-          <mxGeometry height="210" width="320" as="geometry" />
-        </mxCell>
-        <mxCell id="CKAboDhTFeI8NuHS_BNO-11" parent="CKAboDhTFeI8NuHS_BNO-12" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="snet-container-app [Subnet]" vertex="1">
-          <mxGeometry height="30" width="243.77" x="36.23" as="geometry" />
+          <mxGeometry height="210" width="320" x="-110" y="280" as="geometry" />
         </mxCell>
         <mxCell id="CKAboDhTFeI8NuHS_BNO-20" parent="CKAboDhTFeI8NuHS_BNO-12" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=none;fontColor=light-dark(#FFFFFF,#FCFFF7);strokeColor=#001DBC;dashed=1;" value="" vertex="1">
           <mxGeometry height="160" width="263.77" x="36.23" y="30" as="geometry" />
@@ -396,6 +372,36 @@
         </mxCell>
         <mxCell id="TAbr5Av5zu5l6n_OHLXw-16" parent="CKAboDhTFeI8NuHS_BNO-12" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Profile Matcher&lt;div&gt;Back end [FastAPI]&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="158.24" x="78.99999999999999" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8DsdirwrIOQHDzMfVq_l-2" connectable="0" parent="CKAboDhTFeI8NuHS_BNO-12" style="group" value="" vertex="1">
+          <mxGeometry height="210" width="320" as="geometry" />
+        </mxCell>
+        <mxCell id="CKAboDhTFeI8NuHS_BNO-10" parent="8DsdirwrIOQHDzMfVq_l-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;dashed=1;" value="" vertex="1">
+          <mxGeometry height="210" width="320" as="geometry" />
+        </mxCell>
+        <mxCell id="CKAboDhTFeI8NuHS_BNO-11" parent="8DsdirwrIOQHDzMfVq_l-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="snet-container-app [Subnet]" vertex="1">
+          <mxGeometry height="30" width="243.77" x="-30.000000000000007" as="geometry" />
+        </mxCell>
+        <mxCell id="CKAboDhTFeI8NuHS_BNO-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;dashed=1;" value="" vertex="1">
+          <mxGeometry height="860" width="1260" x="-180" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CKAboDhTFeI8NuHS_BNO-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;strong&gt;Azure ADBI&lt;/strong&gt; &lt;code dir=&quot;ltr&quot;&gt;[Abonnement]&lt;/code&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="180" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CKAboDhTFeI8NuHS_BNO-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Microsoft Entra ID&lt;div&gt;[Service Azure]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CKAboDhTFeI8NuHS_BNO-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;Front end (React.js)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Azure Static Web Apps [Service Azure]&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="-100" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CKAboDhTFeI8NuHS_BNO-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="PostgreSQL Azure&lt;div&gt;[Base de données]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CKAboDhTFeI8NuHS_BNO-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="ADLS Gen2&lt;div&gt;[Stockage]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CKAboDhTFeI8NuHS_BNO-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Key Vault&lt;div&gt;[Coffre de secrets]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="780" y="170" as="geometry" />
         </mxCell>
         <mxCell id="CKAboDhTFeI8NuHS_BNO-13" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="210" width="410" x="530" y="330" as="geometry" />
