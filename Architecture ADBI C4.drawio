@@ -215,6 +215,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Uz5xZEn9lPrAIMFF7AYg-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontColor=#ffffff;strokeColor=#006EAF;" value="" vertex="1">
+          <mxGeometry height="535" width="713.5" x="16.25" y="355" as="geometry" />
+        </mxCell>
         <mxCell id="S2mPPAGXO0xYNbbxyGra-7" edge="1" parent="1" source="0E32ASuYmKPpBNdMMmuG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="S2mPPAGXO0xYNbbxyGra-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -251,7 +254,7 @@
         <mxCell id="S2mPPAGXO0xYNbbxyGra-14" edge="1" parent="1" source="S2mPPAGXO0xYNbbxyGra-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="S2mPPAGXO0xYNbbxyGra-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="S2mPPAGXO0xYNbbxyGra-15" connectable="0" parent="S2mPPAGXO0xYNbbxyGra-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Lit et écrit les profils,&amp;nbsp;&lt;div&gt;besoins et clients&lt;/div&gt;&lt;div&gt;Protocole : jdbc / TLS&lt;/div&gt;" vertex="1">
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-15" connectable="0" parent="S2mPPAGXO0xYNbbxyGra-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Lit et écrit les profils,&amp;nbsp;&lt;div&gt;besoins et clients&lt;/div&gt;&lt;div&gt;Protocole : SQL / TLS&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.014" y="3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -289,11 +292,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S2mPPAGXO0xYNbbxyGra-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Data Platform&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 8px; color: light-dark(rgb(255, 255, 255), rgb(252, 255, 247));&quot;&gt;Système externe&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Consomme les données de Profile Matcher&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="220" x="270" y="930" as="geometry" />
+        <mxCell id="S2mPPAGXO0xYNbbxyGra-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#0050EF,#E1D5E7);fontColor=light-dark(#FFFFFF,#000000);strokeColor=#001DBC;" value="Data Platform&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Système externe&lt;/font&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Consomme les données de Profile Matcher et produit les embeddings&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="263" y="940" as="geometry" />
         </mxCell>
-        <mxCell id="w85dYbd66Dyko8OeCS17-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Vue d’ensemble des conteneurs : Profile Matcher -&amp;nbsp; ADBI&lt;/h1&gt;&lt;p&gt;Vue d’ensemble des systèmes de l’architecture data d’ADBI et de leurs échanges&lt;/p&gt;" vertex="1">
+        <mxCell id="w85dYbd66Dyko8OeCS17-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Diagramme de conteneurs : Profile Matcher -&amp;nbsp; ADBI&lt;/h1&gt;&lt;p&gt;Conteneurs de Profile Matcher et leurs échanges avec les systèmes voisins&lt;/p&gt;" vertex="1">
           <mxGeometry height="90" width="450" x="16.5" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uz5xZEn9lPrAIMFF7AYg-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[Système logiciel]" vertex="1">
+          <mxGeometry height="30" width="113.5" x="16.5" y="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
