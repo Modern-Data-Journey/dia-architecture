@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Vue contexte Système : Plateforme Nifi" id="xjP2IH7ndTwl458XdnC7">
+    <mxGraphModel dx="1414" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Vue contexte système : Apache Nifi&lt;/h1&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;Plateforme basée sur Apache NiFi permettant d’ingérer, transporter, transformer, router et superviser les flux de données entre les systèmes internes et externes de l’organisation.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="380" x="50" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="690" width="860" x="50" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Beaumanoir [Entreprise]" vertex="1">
+          <mxGeometry height="30" width="140" x="50" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-13" edge="1" parent="1" source="zp9kyqXGL7Ob2BWIvG-D-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;" target="zp9kyqXGL7Ob2BWIvG-D-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-14" connectable="0" parent="zp9kyqXGL7Ob2BWIvG-D-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Configure et déploie&lt;div&gt;des flux&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0517" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-4" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;labelPerimeter=1;" value="Equipe Flux&lt;div&gt;[Person]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="43" x="140" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-15" edge="1" parent="1" source="zp9kyqXGL7Ob2BWIvG-D-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;" target="zp9kyqXGL7Ob2BWIvG-D-8">
+          <mxGeometry relative="1" x="0.0854" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-16" connectable="0" parent="zp9kyqXGL7Ob2BWIvG-D-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Supervise les flux&lt;div&gt;et les erreurs&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1808" y="-1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-5" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;labelPerimeter=1;" value="Equipe exploitation&lt;div&gt;[Person]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="43" x="140" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-17" edge="1" parent="1" source="zp9kyqXGL7Ob2BWIvG-D-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;" target="zp9kyqXGL7Ob2BWIvG-D-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-18" connectable="0" parent="zp9kyqXGL7Ob2BWIvG-D-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Administre et sécurise&lt;div&gt;la plateforme&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1351" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-6" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;labelPerimeter=1;" value="Admin Nifi&lt;div&gt;[Person]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="43" x="140" y="533.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-19" edge="1" parent="1" source="zp9kyqXGL7Ob2BWIvG-D-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;" target="zp9kyqXGL7Ob2BWIvG-D-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-20" connectable="0" parent="zp9kyqXGL7Ob2BWIvG-D-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Demandent et suivent&lt;div&gt;les échanges&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2975" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-7" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;labelPerimeter=1;" value="Equipes métiers&lt;div&gt;[Person]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="43" x="140" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-23" edge="1" parent="1" source="zp9kyqXGL7Ob2BWIvG-D-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;" target="zp9kyqXGL7Ob2BWIvG-D-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-24" connectable="0" parent="zp9kyqXGL7Ob2BWIvG-D-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Alimente les&lt;div&gt;systèmes&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0483" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Plateforme Nifi&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255); white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Software System]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Ingère, transforme, route, sécurise, expose et supervise les flux de données&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="77" width="150" x="405" y="516.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-21" edge="1" parent="1" source="zp9kyqXGL7Ob2BWIvG-D-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;" target="zp9kyqXGL7Ob2BWIvG-D-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-22" connectable="0" parent="zp9kyqXGL7Ob2BWIvG-D-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Fournissent les données" vertex="1">
+          <mxGeometry relative="1" x="-0.0748" y="3" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255); white-space-collapse: collapse;&quot;&gt;&lt;font style=&quot;&quot;&gt;Applications et bases sources&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255); white-space-collapse: collapse;&quot;&gt;&lt;font style=&quot;text-wrap-mode: nowrap; font-size: 8px;&quot;&gt;[Software System]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ERP, Oracle, Postgresql, ...&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="77" width="170" x="83.5" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="zp9kyqXGL7Ob2BWIvG-D-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255); white-space-collapse: collapse;&quot;&gt;&lt;font style=&quot;&quot;&gt;Applications et bases cibles&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255); white-space-collapse: collapse;&quot;&gt;&lt;font style=&quot;text-wrap-mode: nowrap; font-size: 8px;&quot;&gt;[Software System]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ERP, Oracle, Postgresql, Bloomreach, ...&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="77" width="170" x="700" y="516.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
