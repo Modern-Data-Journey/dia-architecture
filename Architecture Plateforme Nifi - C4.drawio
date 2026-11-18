@@ -86,7 +86,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Dy9AW6XyqvTRJnOtfkmw" name="Vue d’ensemble des systèmes : Equipe Flux">
-    <mxGraphModel dx="2531" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -207,7 +207,7 @@
         <mxCell id="axKqV6zpNmvPv1XMcX-t-15" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;labelPerimeter=1;" value="&lt;div&gt;Clients&lt;/div&gt;&lt;div&gt;[Person]&lt;/div&gt;" vertex="1">
           <mxGeometry height="43" width="43" x="1300" y="487" as="geometry" />
         </mxCell>
-        <mxCell id="axKqV6zpNmvPv1XMcX-t-21" edge="1" parent="1" source="8hu1f-xcmffxpgerY6Nt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="axKqV6zpNmvPv1XMcX-t-15">
+        <mxCell id="axKqV6zpNmvPv1XMcX-t-21" edge="1" parent="1" source="8hu1f-xcmffxpgerY6Nt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;" target="axKqV6zpNmvPv1XMcX-t-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="axKqV6zpNmvPv1XMcX-t-22" connectable="0" parent="axKqV6zpNmvPv1XMcX-t-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Envoie de mails&lt;div&gt;(etickets et EXG)&lt;/div&gt;" vertex="1">
@@ -219,10 +219,47 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IJyUu6deuwjcD-QFiFOk" name="Page-3">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1704" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mDePwMJnNFfhfPEmR1Qt-2" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="640" width="1100" x="40" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="8hSZzC0MCTtOs9nee6rg-6" parent="mDePwMJnNFfhfPEmR1Qt-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;dashed=1;" value="" vertex="1">
+          <mxGeometry height="610" width="1100" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8hSZzC0MCTtOs9nee6rg-7" parent="mDePwMJnNFfhfPEmR1Qt-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Apache NIfi GCP" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mDePwMJnNFfhfPEmR1Qt-7" edge="1" parent="mDePwMJnNFfhfPEmR1Qt-2" source="8hSZzC0MCTtOs9nee6rg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;" target="mDePwMJnNFfhfPEmR1Qt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDePwMJnNFfhfPEmR1Qt-8" connectable="0" parent="mDePwMJnNFfhfPEmR1Qt-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Délègue auth&lt;div&gt;Protocole : OpenID Connect&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0315" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hSZzC0MCTtOs9nee6rg-4" parent="mDePwMJnNFfhfPEmR1Qt-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Instance NIfi&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Conteneur applicatif- Java - JVM]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;Interface Web + API REST + Authorizer&lt;/div&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;moteur d’exécution des dataflows&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="99.25233644859813" width="246.67133847231955" x="280.00367203924316" y="95.00429906542058" as="geometry" />
+        </mxCell>
+        <mxCell id="mDePwMJnNFfhfPEmR1Qt-4" parent="mDePwMJnNFfhfPEmR1Qt-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Google Identity Provider&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Système externe]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&amp;nbsp;&lt;font size=&quot;1&quot;&gt;Authentifie l&#39;utilisateur, applique mfa / sso&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="99.25233644859813" width="246.67133847231955" x="820.0036720392432" y="95.00429906542058" as="geometry" />
+        </mxCell>
+        <mxCell id="AKlrIJCwq8ODfRdobIwj-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Diagramme de conteneurs : Apache Nifi&lt;/h1&gt;&lt;p&gt;Conteneurs de Apache Nifi et leurs échanges avec les systèmes voisins&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="450" x="30" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mDePwMJnNFfhfPEmR1Qt-5" edge="1" parent="1" source="mDePwMJnNFfhfPEmR1Qt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;" target="8hSZzC0MCTtOs9nee6rg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDePwMJnNFfhfPEmR1Qt-6" connectable="0" parent="mDePwMJnNFfhfPEmR1Qt-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Accède à l&#39;interface Web&lt;div&gt;Protocole : HTTPS&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.111" y="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDePwMJnNFfhfPEmR1Qt-1" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;labelPerimeter=1;" value="Equipe Flux&lt;div&gt;[Person]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="42.62931034482759" x="422.02" y="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
