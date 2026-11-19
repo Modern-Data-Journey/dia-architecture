@@ -219,7 +219,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IJyUu6deuwjcD-QFiFOk" name="Page-3">
-    <mxGraphModel dx="1704" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1554" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,6 +245,15 @@
         </mxCell>
         <mxCell id="mDePwMJnNFfhfPEmR1Qt-4" parent="mDePwMJnNFfhfPEmR1Qt-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Google Identity Provider&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Système externe]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&amp;nbsp;&lt;font size=&quot;1&quot;&gt;Authentifie l&#39;utilisateur, applique mfa / sso&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="99.25233644859813" width="246.67133847231955" x="820.0036720392432" y="95.00429906542058" as="geometry" />
+        </mxCell>
+        <mxCell id="C4cWWCpwkpkh99dVz1r9-1" parent="mDePwMJnNFfhfPEmR1Qt-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Google Cloud Storage&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Système externe]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&amp;nbsp;&lt;font size=&quot;1&quot;&gt;Authentifie l&#39;utilisateur, applique mfa / sso&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="99.25233644859813" width="246.67133847231955" x="30" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="C4cWWCpwkpkh99dVz1r9-2" parent="mDePwMJnNFfhfPEmR1Qt-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Google Cloud Secret Manager&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Système externe]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&amp;nbsp;&lt;font size=&quot;1&quot;&gt;Authentifie l&#39;utilisateur, applique mfa / sso&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="99.25233644859813" width="246.67133847231955" x="310" y="270.37" as="geometry" />
+        </mxCell>
+        <mxCell id="C4cWWCpwkpkh99dVz1r9-3" parent="mDePwMJnNFfhfPEmR1Qt-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Google Cloud PUB/SUB&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Système externe]&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&lt;div style=&quot;color: rgb(18, 18, 18);&quot;&gt;&amp;nbsp;&lt;font size=&quot;1&quot;&gt;File de messafe asynchrone&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="99.25233644859813" width="246.67133847231955" x="600" y="270.37" as="geometry" />
         </mxCell>
         <mxCell id="AKlrIJCwq8ODfRdobIwj-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Diagramme de conteneurs : Apache Nifi&lt;/h1&gt;&lt;p&gt;Conteneurs de Apache Nifi et leurs échanges avec les systèmes voisins&lt;/p&gt;" vertex="1">
           <mxGeometry height="90" width="450" x="30" y="30" as="geometry" />
